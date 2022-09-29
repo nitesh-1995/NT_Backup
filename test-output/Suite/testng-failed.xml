@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="TestRun.TestingLogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="validateTC001"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestRun.TestingLogin -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
